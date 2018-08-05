@@ -66,10 +66,10 @@ weibo_show:
 #----------------------------
 comment:
   enable: true
-  owner: jangdelong
+  owner: gatieme
   repo: blog_comments
-  client_id: b08ed25e52c57993e69c
-  client_secret: 1cb9545488f0380904b87350e7c5a270ae03bab7
+  client_id: cf796c25fcf4369b9295
+  client_secret: c2ecfa50b9914a8fc9655ede7c9e6cf2ff84a70c
 
 #----------------------------
 # 是否开启云标签
@@ -104,14 +104,14 @@ head_links:
     sup:
       0:
         name: Github
-        link: https://github.com/jangdelong
+        link: https://github.com/gatieme
       last:
         name: Hosted by Coding Pages
         link: https://pages.coding.me
     sub:
       sinaweibo:
         name: 新浪微博
-        link: http://weibo.com/jangdelong
+        link: http://weibo.com/gatieme
       qqweibo:
         name: Facebook
         link: https://www.facebook.com/profile.php?id=100011855760219&ref=bookmarks
