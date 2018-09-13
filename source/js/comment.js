@@ -234,7 +234,7 @@ var JELON = window.JELON || {};
         } else {
           userInfo = {};
         }
-        // 默认头像路径 /img/jelon.jpg
+        // 默认头像路径 /img/gatieme.jpg
         $('JELON__loginAvatar').src = userInfo.avatar_url || '/img/unsigned_avatar.jpg';
       }
     },
