@@ -1,0 +1,31 @@
+<!-- 自定义实验室页 -->
+
+<section>
+    <img title="图片摄于2017年1月1日深圳梧桐山 By iPhone 7。" src="<%- url_for('/img/lab/banner.jpg?v=3') %>" alt="Lab Banner" style="max-width: 100%;" alt="Banner" >
+</section>
+<%
+    var projects = page.projects;
+    for (var i in projects) {
+%>
+    <p style="color: #444;">
+        <!--
+        <span class="icon-cogs"></span>
+        -->
+        <span class="icon-price-tags"></span>
+        <%- projects[i].title %>
+    </p>
+
+    <ul style="list-style-type: none;">
+        <% var content = projects[i].content; %>
+        <% for (var j in content) { %>
+        <div class="widget-bd tag-wrap">
+        <li>
+            <a class="tag-item" href="<%- content[j].link %>" title="<%- content[j].title %>">
+            <span><%- content[j].name %></span>
+	    </a>
+        </li>
+        </div>
+        <% } %>
+    </ul>
+<% } %>
+

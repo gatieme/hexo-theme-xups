@@ -16,6 +16,10 @@ menu:
     name: 实验室
     link: /lab/
     icon: icon-lab
+  navigation:
+    name: 网址导航
+    link: /navigation/
+    icon: icon-lab
   about:
     name: 关于
     link: /about/
@@ -83,9 +87,9 @@ friends:
   enable: true
   list:
     1:
-      name: Haoren博客
-      title: 网络安全博客
-      link: http://blog.sina.com.cn/u/1825875765
+      name: AderStep--紫夜阑珊-青伶巷草
+      title: 我的 CSDN 博客
+      link: https://blog.csdn.net/gatieme
     2:
       name: Maxwell博客
       title: 技术博客
@@ -114,7 +118,7 @@ head_links:
         link: http://weibo.com/gatieme
       qqweibo:
         name: Facebook
-        link: https://www.facebook.com/profile.php?id=100011855760219&ref=bookmarks
+        link: https://www.facebook.com/gatieme
 #----------------------------
 # SEO
 #----------------------------
