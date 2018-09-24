@@ -110,12 +110,12 @@ head_links:
         name: Github
         link: https://github.com/gatieme
       last:
-        name: Hosted by Coding Pages
-        link: https://pages.coding.me
+        name: Hosted by Github Pages
+        link: https://github.com/gatieme/gatieme.github.io
     sub:
-      sinaweibo:
-        name: 新浪微博
-        link: http://weibo.com/gatieme
+      csdn:
+        name: CSDN 博客
+        link: https://blog.csdn.net/gatieme
       qqweibo:
         name: Facebook
         link: https://www.facebook.com/gatieme
