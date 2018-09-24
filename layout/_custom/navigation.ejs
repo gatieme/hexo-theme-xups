@@ -17,15 +17,15 @@
 
     <ul style="list-style-type: none;">
         <% var content = projects[i].content; %>
-        <% for (var j in content) { %>
         <div class="widget-bd tag-wrap">
         <li>
+        <% for (var j in content) { %>
             <a class="tag-item" href="<%- content[j].link %>" title="<%- content[j].title %>">
             <span><%- content[j].name %></span>
 	    </a>
+        <% } %>
         </li>
         </div>
-        <% } %>
     </ul>
 <% } %>
 
