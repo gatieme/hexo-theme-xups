@@ -1,7 +1,7 @@
 #############################
 # Xups for Hexo 主题配置文件
 # Jelon
-# http://jelon.top
+# http://jelon.info
 #############################
 
 #----------------------------
@@ -69,11 +69,11 @@ weibo_show:
 # 是否开启评论
 #----------------------------
 comment:
-  enable: true
-  owner: gatieme
-  repo: blog_comments
-  client_id: cf796c25fcf4369b9295
-  client_secret: c2ecfa50b9914a8fc9655ede7c9e6cf2ff84a70c
+  enable: false
+  owner:
+  repo:
+  client_id:
+  client_secret:
 
 #----------------------------
 # 是否开启云标签
@@ -113,8 +113,9 @@ head_links:
         name: CSDN 博客
         link: https://blog.csdn.net/gatieme
       qqweibo:
-        name: Facebook
-        link: https://www.facebook.com/gatieme
+        name: 掘金
+        link: https://juejin.im/user/3984285869282919
+
 #----------------------------
 # SEO
 #----------------------------
@@ -146,3 +147,8 @@ CDN:
 search:
   enable: true
   placeholder: 输入关键字搜索
+
+#----------------------------
+# 是否全栈致灰
+#----------------------------
+is_site_grey: false
