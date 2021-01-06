@@ -125,7 +125,9 @@ SEO:
 #----------------------------
 # 百度分析
 #----------------------------
-baidu_analytics: true
+baidu_analytics:
+  enbale: false
+  analytics_url: https://hm.baidu.com/hm.js?1a8f9a67050c5fdb4c73cbbc00124bd8
 
 #----------------------------
 # 高亮样式
