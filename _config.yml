@@ -19,15 +19,15 @@ menu:
   lab:
     name: 实验室
     link: /lab/
-    icon: icon-lab
+    icon: icon-archives
   navigation:
     name: 网址导航
     link: /navigation/
-    icon: icon-lab
+    icon: icon-archives
   about:
     name: 关于
     link: /about/
-    icon: icon-about
+    icon: icon-staff
   comment:
     name: 留言
     link: /comment/
