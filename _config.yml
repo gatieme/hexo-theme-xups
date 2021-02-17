@@ -91,12 +91,16 @@ friends:
   enable: true
   list:
     1:
-      name: AderStep--紫夜阑珊-青伶巷草
+      name: CSDN--紫夜阑珊-青伶巷草
       title: 我的 CSDN 博客
       link: https://blog.csdn.net/gatieme
     2:
-      name: Jelon博客
-      title: Jelon博客
+      name: 炫猿导航
+      title: 我的炫猿导航主页
+      link: https://xydh.fun/gatieme
+    3:
+      name: Jelon 的博客
+      title: Jelon 的博客
       link: https://jelon.info
 
 #----------------------------
